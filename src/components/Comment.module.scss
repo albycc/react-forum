@@ -1,0 +1,23 @@
+.comment-container{
+    display:flex;
+    border:1px solid grey;
+    margin:10px 5px;
+    min-height:250px;
+
+    .comment-avatar-container{
+        background-color: lightgrey;
+        width:100%;
+        max-width: 200px;
+    }
+
+    .comment-body-container{
+        display:flex;
+        flex-direction: column;
+        width:100%;
+    }
+
+    .comment-header-row{
+        display: flex;
+        background-color: lightblue;
+    }
+}
