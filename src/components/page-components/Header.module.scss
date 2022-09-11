@@ -1,5 +1,13 @@
 
 .header-container{
+    display: flex;
+    align-items: center;
     background-color: rgb(50, 156, 192);
     height:100px;
+    padding: 0px 30px;
+
+    & *{
+        font-size: 3em;
+        font-weight: bold;
+    }
 }

@@ -1,6 +1,6 @@
-import classes from "./Comment.module.scss";
+import classes from "./Post.module.scss";
 
-export default function Comment({ name, email, body }) {
+export default function Post({ name, email, body }) {
   return (
     <div className={classes["comment-container"]}>
       <div className={classes["comment-avatar-container"]}>
@@ -10,7 +10,7 @@ export default function Comment({ name, email, body }) {
         <div className={classes['comment-header-row']}>
           <p>{name}</p>
         </div>
-        <div>
+        <div className={classes["comment-text"]}>
             {body}
         </div>
       </div>

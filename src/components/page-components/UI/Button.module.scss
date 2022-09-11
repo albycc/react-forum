@@ -1,0 +1,16 @@
+@import "../../../styles/colours.scss";
+
+.link-button{
+    background-color: $forum-header-colour;
+    padding:10px 15px;
+    border:none;
+    border-radius: 15px;
+    color:$post-font-colour;
+    cursor: pointer;
+    font-size: 1em;
+
+    &:hover{
+        background-color:rgb(61, 61, 82);
+
+    }
+}

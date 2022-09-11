@@ -3,9 +3,9 @@ import classes from "./ForumPost.module.scss";
 
 function ForumPost({ id, title }) {
   return (
-    <div className={classes['post-container']}>
-      <Link to={`/post/${id }`}>
-        <h2>{title}</h2>
+    <div className={classes["post-container"]}>
+      <Link to={`/post/${id}`}>
+        <p>{title}</p>
       </Link>
     </div>
   );

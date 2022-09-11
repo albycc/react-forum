@@ -1,11 +1,22 @@
+@import "../styles/colours.scss";
 
 .post-container{
     display: flex;
-    border: 1px solid black;
     margin:5px 1px;
+    padding:5px 10px 30px;
+    background-color: $dark-background-color;
+
+    & *{
+        color:$post-font-colour;
+    }
+
+    &:hover{
+        background-color: rgb(47, 47, 63);
+    }
 
     a{
-        color:grey;
+        display:inline-block;
         text-decoration: none;
+        width:100%;
     }
 }
