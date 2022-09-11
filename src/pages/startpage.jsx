@@ -4,7 +4,7 @@ import ForumList from "../components/ForumList";
 export default function Start() {
   return (
     <Fragment>
-      <h1>Reach forum</h1>
+      <h1>Forum</h1>
       <ForumList />
     </Fragment>
   );
