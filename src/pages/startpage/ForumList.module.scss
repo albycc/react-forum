@@ -1,7 +1,9 @@
-@import "../styles/colours.scss";
+@import "../../styles/colours.scss";
 
 .forum-posts-content{
     margin:15px 10px;
+    max-width:1000px;
+    width:100%;
 }
 
 .forum-post-list{

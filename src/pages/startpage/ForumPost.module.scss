@@ -1,9 +1,10 @@
-@import "../styles/colours.scss";
+@import "../../styles/colours.scss";
 
 .post-container{
     display: flex;
     margin:5px 1px;
-    padding:5px 10px 30px;
+    min-height:50px;
+    padding:5px 10px;
     background-color: $dark-background-color;
 
     & *{

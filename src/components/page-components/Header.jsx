@@ -1,9 +1,12 @@
-import classes from './Header.module.scss'
+import styles from "./Header.module.scss";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <header className={classes['header-container']}>
-      <span>REACT LEARNER</span>
+    <header className={styles["header-container"]}>
+      <Link to="/">
+        <span>REACT LEARNER</span>
+      </Link>
     </header>
   );
 }

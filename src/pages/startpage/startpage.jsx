@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import ForumList from "../components/ForumList";
+import ForumList from "./ForumList";
 
 export default function Start() {
   return (

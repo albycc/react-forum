@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import classes from "./ForumPost.module.scss";
+import styles from "./ForumPost.module.scss";
 
 function ForumPost({ id, title }) {
   return (
-    <div className={classes["post-container"]}>
+    <div className={styles["post-container"]}>
       <Link to={`/post/${id}`}>
         <p>{title}</p>
       </Link>

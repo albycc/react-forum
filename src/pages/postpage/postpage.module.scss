@@ -1,0 +1,12 @@
+@import "../../styles/colours.scss"; 
+
+.postsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.post-content{
+    min-height:300px;
+}

@@ -1,0 +1,41 @@
+@import "../../styles/colours.scss";
+
+.post-container {
+  display: flex;
+  margin: 10px 5px;
+  min-height: 250px;
+  width:100%;
+  max-width:900px;
+
+  .post-avatar-container {
+    display: flex;
+    justify-content: center;
+    background-color: $forum-header-colour;
+    width: 100%;
+    padding: 10px 0px;
+    max-width: 250px;
+  }
+
+  .post-body-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: $post-font-colour;
+    padding: 10px 15px 20px;
+    border-right: 1px solid $forum-header-colour;
+    border-top: 1px solid $forum-header-colour;
+    border-bottom: 1px solid $forum-header-colour;
+
+    & .post-text {
+      padding: 20px 0px;
+    }
+  }
+
+  .post-header-row {
+    display: flex;
+
+    & * {
+      color: darkgrey;
+    }
+  }
+}

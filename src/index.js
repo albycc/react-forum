@@ -2,9 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import StartPage from "./pages/startpage";
-import PostPage from "./pages/postpage";
-import MissingPage from "./pages/missingpage";
+import StartPage from "./pages/startpage/startpage";
+import PostPage from "./pages/postpage/postpage";
+import MissingPage from "./pages/missingpage/missingpage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

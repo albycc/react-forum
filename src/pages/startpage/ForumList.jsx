@@ -8,7 +8,7 @@ function ForumList() {
   useEffect(() => {
     axios
       .get(" https://jsonplaceholder.typicode.com/posts")
-      .then((response) => setPostList(response.data));
+      .then((response) => setPostList(response.data)).catch(error => console.log(error.message));
   }, []);
   return (
     <div className={styles["forum-posts-content"]}>

@@ -1,7 +1,7 @@
-import classes from './Main.module.scss'
+import styles from './Main.module.scss'
 
 export default function Main({children}){
-    return <main className={classes['main-body']}>
+    return <main className={styles['main-body']}>
         {children}
     </main>
 }
