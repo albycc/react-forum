@@ -9,11 +9,25 @@
 
   .post-avatar-container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-color: $forum-header-colour;
     width: 100%;
     padding: 10px 0px;
     max-width: 250px;
+    min-width: 100px;
+
+    & .avatar-name{
+      color:rgb(43, 163, 219);
+      margin:10px 0px 15px;
+      text-align: center;
+    }
+
+    & .avatar-icon{
+      width:100px;
+      height:100px;
+      padding-top:20px;
+    }
   }
 
   .post-body-container {
@@ -28,14 +42,6 @@
 
     & .post-text {
       padding: 20px 0px;
-    }
-  }
-
-  .post-header-row {
-    display: flex;
-
-    & * {
-      color: darkgrey;
     }
   }
 }

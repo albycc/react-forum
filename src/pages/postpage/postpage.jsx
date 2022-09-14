@@ -41,10 +41,9 @@ export default function PostPage() {
       {post && (
         <Fragment>
           <div className={styles["postsection"]}>
-            <Post {...post}  email={originalPoster?.email} />
+            <Post {...post}  {...originalPoster} />
           </div>
           <div className={styles["postsection"]}>
-            <h2>Comments</h2>
             {commentsList &&
               commentsList.map((comment) => (
                 <Post key={comment.id} {...comment} />
